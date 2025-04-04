@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import TodoItem from "./TodoItem";
-import styles from "./TodoList.module.css";
+import styles from "./todoList.module.css";
 export default function TodoList(props) {
   return (
     <div className={styles.list}>
