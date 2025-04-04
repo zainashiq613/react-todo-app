@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #703a3a;
+  border-radius: 20px;
+  width: 40vw;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.itemcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.itemcontent h3 {
+  color: #fff;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.itemcontent span button {
+  border: none;
+  padding: 5px;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.itemcontent span button:hover {
+  background: #fff;
+  color: #703a3a;
+  transition: all 0.3s ease-in-out;
+}
+
+.itemcontent h3.completed {
+  text-decoration: line-through;
+  color: #808080;
+}

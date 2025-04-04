@@ -1,3 +1,4 @@
+import styles from "./Header.module.css";
 export default function Header() {
-  return <div> My Todo List </div>;
+  return <div className={styles.header}> My Todo List </div>;
 }

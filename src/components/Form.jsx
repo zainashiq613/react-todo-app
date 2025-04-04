@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import styles from "./Form.module.css";
 export default function Form(props) {
   const [todo, settodo] = useState("");
   function handlesubmit(e) {
@@ -18,7 +19,7 @@ export default function Form(props) {
   }
   return (
     <div>
-      <form onSubmit={handlesubmit}>
+      <form className={styles.form} onSubmit={handlesubmit}>
         <input
           type="text"
           value={todo}
